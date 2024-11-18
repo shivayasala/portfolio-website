@@ -1,0 +1,53 @@
+
+.carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* For larger screens */
+  @media (min-width: 1200px) {
+    .carousel-inner img {
+      height: 600px; /* Increase image height for larger screens */
+    }
+  }
+  
+  /* For medium screens */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .carousel-inner img {
+      height: 400px; /* Medium image height */
+    }
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 767px) {
+    .carousel-inner img {
+      height: 200px; /* Smaller image height */
+    }
+  }
+  
+  /* Styling for carousel captions */
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 767px) {
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  

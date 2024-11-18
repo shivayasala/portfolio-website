@@ -1,0 +1,50 @@
+.app {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-white {
+  background-color: white;
+  color: black; /* Default color for text in light mode */
+}
+
+.bg-black {
+  background-color: black;
+  color: white; /* Default color for text in dark mode */
+}
+
+/* Global paragraph styles based on background mode */
+.bg-white p, .bg-white a {
+  color: black;
+}
+
+.bg-black p, .bg-black a {
+  color: white;
+}
+
+/* Additional styles for specific components if needed */
+.bg-white .contact-left p,
+.bg-white .contact-details,
+.bg-white .contact-right label,
+.bg-white .contact-right input,
+.bg-white .contact-right textarea,
+.bg-white .service-format p,
+.bg-white .nav-menu li {
+  color: black; /* Black color for light mode */
+}
+
+.bg-black .contact-left p,
+.bg-black .contact-details,
+.bg-black .contact-right label,
+.bg-black .contact-right input,
+.bg-black .contact-right textarea,
+.bg-black .service-format p,
+.bg-black .nav-menu li {
+  color: white; /* White color for dark mode */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+}

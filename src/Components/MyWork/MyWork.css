@@ -1,0 +1,71 @@
+.mywork {
+  padding: 50px;
+  text-align: center;
+}
+
+.mywork-title {
+  margin-bottom: 40px;
+}
+
+.mywork-title h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.mywork-title img {
+  width: 50px;
+}
+
+.mywork-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.work-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
+}
+
+.work-img:hover {
+  transform: scale(1.05); /* Slight zoom */
+  filter: brightness(0.7); /* Unique color overlay */
+}
+
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 20px auto; /* Center the button */
+  padding: 10px 20px;
+  background: linear-gradient(267deg, #DA7C25 0%, #B923E1 100%); /* Matching gradient color */
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.mywork-showmore:hover {
+  background-color: #B923E1; /* Slightly different highlight color on hover */
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+.mywork-showmore p {
+  margin-right: 10px;
+}
+
+.additional-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}

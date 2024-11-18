@@ -1,0 +1,74 @@
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.services-title {
+  margin-bottom: 40px;
+}
+
+.services-title h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.services-title img {
+  width: 50px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-format {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  color: black; /* Ensures text in the box is black */
+}
+
+.service-format:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ff; /* Unique highlight color on hover */
+  transform: scale(1.05); /* Zoom in a little on hover */
+}
+
+.service-readmore {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+  color: black; /* Ensures text in the read more section is black */
+}
+
+.service-readmore p {
+  margin-right: 10px;
+}
+
+.service-extra {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  color: black; /* Ensures text in the extra content section is black */
+}
+
+.service-extra button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.service-extra button:hover {
+  background-color: #0056b3;
+}
