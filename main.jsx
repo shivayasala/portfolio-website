@@ -1,6 +1,6 @@
-import { createRoot } from './node_modules/react-dom/client';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './src/App'
 
 // Create the root element
 const rootElement = document.getElementById('root');
@@ -14,5 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!localStorage.getItem('aiChatbotAlertShown')) {
     alert("Welcome! There's an AI chatbot at the bottom right to help with the website.");
     localStorage.setItem('aiChatbotAlertShown', 'true');
-  }
+  }
 });
