@@ -2,9 +2,12 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-createRoot(document.getElementById('root')).render(
-  <App />
-);
+// Create the root element
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+// Render the App component
+root.render(App());
 
 // Alert for AI chatbot
 document.addEventListener('DOMContentLoaded', () => {
