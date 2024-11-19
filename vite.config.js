@@ -7,8 +7,14 @@ export default defineConfig({
     headers: {
       'X-Content-Type-Options': 'nosniff',
     },
+    watch: {
+      usePolling: true, // Add this to enable polling
+    },
   },
   resolve: {
+    alias: {
+      '@': '/src', // Add this alias configuration
+    },
     extensions: ['.js', '.jsx'],
   },
 });
