@@ -5,10 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     headers: {
-      'X-Content-Type-Options': 'nosniff'
-    }
+      'X-Content-Type-Options': 'nosniff',
+    },
   },
   resolve: {
-    extensions: ['.js', '.jsx']
-  }
+    extensions: ['.js', '.jsx'],
+  },
 });
