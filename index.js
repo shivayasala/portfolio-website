@@ -1,13 +1,18 @@
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import './Appcss';
 import App from './src/App'; // Ensure this path is correct
 
 // Create the root element
 const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
 
-// Render the App component
-root.render(<App />);
+if (rootElement) {
+  const root = createRoot(rootElement);
+
+  // Render the App component
+  root.render(<App />);
+} else {
+  console.error('Root element not found');
+}
 
 // Alert for AI chatbot
 document.addEventListener('DOMContentLoaded', () => {
