@@ -1,1 +1,2 @@
 AddType application/javascript .jsx
+Header set X-Content-Type-Options "nosniff"
