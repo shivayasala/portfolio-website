@@ -8,12 +8,12 @@ export default defineConfig({
       'X-Content-Type-Options': 'nosniff',
     },
     watch: {
-      usePolling: true, // Add this to enable polling
+      usePolling: true,
     },
   },
   resolve: {
     alias: {
-      '@': '/src', // Add this alias configuration
+      '@': '/src',
     },
     extensions: ['.js', '.jsx'],
   },
