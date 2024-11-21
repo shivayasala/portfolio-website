@@ -7,7 +7,6 @@ import MyWork from './Components/MyWork/MyWork';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import DocsBotComponent from './Components/Docs/DocsBotComponent';
-import './App.css';
 import Visuals from './Components/visuals/visuals';
 
 const App = () => {
@@ -23,6 +22,7 @@ const App = () => {
       <Hero />
       <About />
       <Services />
+      
       <MyWork />
       <Visuals/>
       <Contact />
@@ -33,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App1;
