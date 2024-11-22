@@ -1,14 +1,15 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './src/App3.jsx'; // Updated to App3.jsx
+import App3 from './src/App3.jsx'; // Updated to App3.jsx
 
 // Create the root element
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 // Render the App component
-root.render(<App />);
+root.render(<App3 />);
+
 
 // Alert for AI chatbot
 document.addEventListener('DOMContentLoaded', () => {
