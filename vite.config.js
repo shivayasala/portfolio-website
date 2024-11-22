@@ -2,10 +2,10 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   server: {
-    port: 3000, // Change to a different port
+    port: 5173, // Default port
     open: true, // Automatically open the browser
     mimeTypes: {
-      'text/jsx': 'text/javascript',
+      'text/jsx': 'text/javascript', // Ensure correct MIME type for JSX files
     },
   },
   build: {
