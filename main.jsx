@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './src/App3'; // After renaming App3.jsx to App3.js
+import App from './src/App3.jsx'; // Updated to App3.jsx
 
 // Create the root element
 const rootElement = document.getElementById('root');
