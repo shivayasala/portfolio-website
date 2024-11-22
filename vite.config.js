@@ -4,6 +4,9 @@ export default defineConfig({
   server: {
     port: 5173, // Default port
     open: true, // Automatically open the browser
+    mimeTypes: {
+      'text/jsx': 'text/javascript',
+    },
   },
   build: {
     outDir: 'dist', // Output directory for the build
