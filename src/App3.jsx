@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import App3 from "./App3";
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
@@ -10,7 +11,7 @@ import DocsBotComponent from './Components/Docs/DocsBotComponent';
 import './App.css';
 import Visuals from './Components/visuals/visuals';
 
-const App = () => {
+const App= () => {
   const [bgColor, setBgColor] = useState('white');
 
   const toggleBackgroundColor = () => {

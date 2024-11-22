@@ -1,0 +1,67 @@
+/* App.css */
+.app {
+    min-height: 100vh;
+    transition: background-color 0.3s;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .bg-black {
+    background-color: black;
+    color: white; /* Optional: Ensures text is visible against a black background */
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
+  .navbar-dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Additional styles for other components */
+  .hero {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about {
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  .services {
+    padding: 50px;
+  }
+  
+  .mywork {
+    padding: 50px;
+  }
+  
+  .contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+  
+  .docsbotcomponent {
+    padding: 50px;
+  }
+  
+  .visuals {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  /* Add styles for hover effects and other visual improvements if needed */
+  
