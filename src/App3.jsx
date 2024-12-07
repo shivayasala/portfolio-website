@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import App3 from "./App3.jsx";
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero/Hero';
-import About from './Components/About/About';
-import Services from './Components/Services/Services';
-import MyWork from './Components/MyWork/MyWork';
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
-import DocsBotComponent from './Components/Docs/DocsBotComponent';
+import Navbar from './Components/Navbar.jsx';
+import Hero from './Components/Hero/Hero.jsx';
+import About from './Components/About/About.jsx';
+import Services from './Components/Services/Services.jsx';
+import MyWork from './Components/MyWork/MyWork.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import Footer from './Components/Footer/Footer.jsx';
+import DocsBotComponent from './Components/Docs/DocsBotComponent.jsx';
 import './App.css';
-import Visuals from './Components/visuals/visuals';
+import Visuals from './Components/visuals/Visuals.jsx';
 
 const App= () => {
   const [bgColor, setBgColor] = useState('white');
