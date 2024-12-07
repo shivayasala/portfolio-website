@@ -10,7 +10,7 @@ import DocsBotComponent from './Components/Docs/DocsBotComponent.jsx';
 import './App.css';
 import Visuals from './Components/visuals/Visuals.jsx';
 
-const App= () => {
+const App = () => {
   const [bgColor, setBgColor] = useState('white');
 
   const toggleBackgroundColor = () => {
@@ -24,11 +24,10 @@ const App= () => {
       <About />
       <Services />
       <MyWork />
-      <Visuals/>
+      <Visuals />
       <Contact />
       <Footer />
-      <DocsBotComponent/>
-      
+      <DocsBotComponent />
     </div>
   );
 };
