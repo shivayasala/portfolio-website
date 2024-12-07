@@ -23,31 +23,29 @@ const Services = () => {
     };
 
     return (
-        <div>
-            <div id='services' className="services">
-                <div className="services-title">
-                    <h1>My Services</h1>
-                    <img src={logo} alt="sorry we cannot load the image" />
-                </div>
-                <div className="services-container">
-                    {service_m.map((service, index) => (
-                        <div key={index} className='service-format'>
-                            <h3>{service.s_no}</h3>
-                            <h2>{service.s_name}</h2>
-                            <p>{service.s_desc}</p>
-                            <div className="service-readmore" onClick={() => handleReadMore(index)}>
-                                <p>Read more</p>
-                                <img src={OIP} alt="sorry can't fetch the image" height="20px" width="20px" />
-                            </div>
-                            {expandedService === index && (
-                                <div className="service-extra">
-                                    <p>{service.s_extra}</p>
-                                    <button onClick={handleClose}>Close</button>
-                                </div>
-                            )}
+        <div id='services' className="services">
+            <div className="services-title">
+                <h1>My Services</h1>
+                <img src={logo} alt="sorry we cannot load the image" />
+            </div>
+            <div className="services-container">
+                {service_m.map((service, index) => (
+                    <div key={index} className='service-format'>
+                        <h3>{service.s_no}</h3>
+                        <h2>{service.s_name}</h2>
+                        <p>{service.s_desc}</p>
+                        <div className="service-readmore" onClick={() => handleReadMore(index)}>
+                            <p>Read more</p>
+                            <img src={OIP} alt="sorry can't fetch the image" height="20px" width="20px" />
                         </div>
-                    ))}
-                </div>
+                        {expandedService === index && (
+                            <div className="service-extra">
+                                <p>{service.s_extra}</p>
+                                <button onClick={handleClose}>Close</button>
+                            </div>
+                        )}
+                    </div>
+                ))}
             </div>
         </div>
     );
